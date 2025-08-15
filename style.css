@@ -1,0 +1,65 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(0, 0, 0, 0.908);
+    margin: 0;
+}
+
+.search{
+    width: 600px;
+    margin: 20px auto;
+    display: flex;
+    cursor: pointer;
+
+}
+.search-input{
+    width: 80%;
+    box-sizing: border-box;
+    font-size: 16px;
+    color: white;
+    padding: 15px;
+    background-color: #3a3a3a9d;
+    font-weight: normal;
+    width: 78%;
+
+}
+.container{
+    width: 600px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.search-input:focus{
+    outline: none;
+    border: none;
+}
+.btn{
+    background-color: red;
+    width: 22%;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+.content{
+    color: rgba(255, 255, 255, 0.849);
+
+}
+.content p{
+    margin:0 0 10px 0 ;
+    font-size: 15px;
+    font-weight: bolder;
+    color: rgb(255, 252, 247);
+
+}
+span{
+    font-weight: lighter;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.849);
+    margin:0 0 10px 0 ;
+}
+.poster{
+    width: 230px;
+}
+#title{
+    margin-top:0 ;
+}
